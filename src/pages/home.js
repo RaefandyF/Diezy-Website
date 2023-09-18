@@ -6,6 +6,7 @@ import React from "react";
 // import Card from 'react-bootstrap/Card';
 import "../css/home.css";
 import buttonGif from "../Assets/button.gif";
+import loadingGif from "../Assets/loading1.gif";
 
 function Home() {
   return (
@@ -43,9 +44,9 @@ function Home() {
                   <br></br>
                   <input type="text" className="form-control w-11/12" id="inputRegisterNama"></input>
                 </div>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-6">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-6">
                       <div className="form-group w-4/5 ml-7 mt-4">
                         <label className="text-white text-2xl" for="inputRegisterDate">Tanggal lahir</label>
                         <input type="date" className="form-control" id="inputRegisterDate"></input>
@@ -53,9 +54,27 @@ function Home() {
                     </div>
                     <div class="col-6">
                       <div className="form-group ml-7 w-4/5">
-                        <label className="mt-4 text-white text-2xl" for="inputRegisterGender">Jenis Kelamin</label>
+                        <label className="mt-4 text-white text-2xl ml-2" for="inputRegisterGender">Jenis Kelamin</label>
                         <br></br>
-                        <input type="text" className="form-control" id="inputRegisterGender"></input>
+                        <form>
+
+                        </form>
+                        <div className="container mt-2">
+                        <div className="row">
+                      
+                          <div className="col-6">
+                            <input type="radio" name="inputGender"></input>
+                            <label className="text-white">Male</label>
+                          </div>
+                          <div className="col-6">
+                            <input type="radio" name="inputGender"></input>
+                            <label className="text-white">Female</label>
+                          </div>
+                        
+
+                        </div>
+
+                        </div>
                       </div>
                     </div>
                 </div>  
@@ -96,6 +115,18 @@ function Home() {
                 Login
                 </button>
               </form>
+            </div>
+        </div>
+      </div>
+
+          {/* Halaman 4 */}
+          <div className="home-page3 position-relative overflow-hidden bg-light">
+        <div className="mainPage col-md-5 p-lg-5 mx-auto mt-32" style={{width:"70rem"}}>
+            <h1 className="mainText display-4 fw-normal text-white text-center">
+              Selamat Datang!
+            </h1>
+            <div className="flex justify-center items-center mt-2">
+              <img src={loadingGif} alt="gif1" className="w-50 h-50 py-0"></img>
             </div>
         </div>
       </div>
