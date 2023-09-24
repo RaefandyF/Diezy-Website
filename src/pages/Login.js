@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Button from '../component/Button'
 
 function Login() {
   return (
@@ -26,9 +27,11 @@ function Login() {
                   <input type="password" className="form-control w-5/6" id="exampleInputPassword1"></input>
                 </div>
                 <Link to={'/input-customer-data'}>
-                    <button type="submit" style={{marginLeft: "45%"}} className="btn bg-white my-4 text-lime-800 text-2xl">
-                    Login
-                    </button>
+                    <Button 
+                    type={"submit"} 
+                    text={"Login"} 
+                    className={"btn bg-white my-4 text-lime-800 text-2xl ml-[45%]"}
+                    />
                 </Link>
               </form>
             </div>

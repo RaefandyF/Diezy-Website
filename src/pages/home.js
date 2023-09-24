@@ -10,6 +10,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import LandingPage from "./LandingPage";
 import Login from "./Login";
 import InputCustomerData from "./InputCustomerData";
+import IntroductionPage from "./introduction";
 
 function Home() {
   return (
@@ -19,6 +20,8 @@ function Home() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/login" element={<Login />} />
           <Route path="/input-customer-data" element={<InputCustomerData />} />
+          <Route path="/introduction" element={<IntroductionPage/>}/>
+          
         </Routes>
       </Router>
   );

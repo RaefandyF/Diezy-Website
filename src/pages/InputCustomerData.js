@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../css/InputCustomerData.css";
 import '../css/loading.css'
+import Button from "../component/Button";
 
 function InputCustomerData() {
   const [loading, setLoading] = useState(false);
@@ -69,12 +70,12 @@ function InputCustomerData() {
                 </div>
               </div>
               <div className="w-full flex justify-center items-center py-2">
-                <button 
-                className="bg-white px-2 py-2 w-[80px] rounded text-lime-500 font-bold"
+                <Button 
+                className={"bg-white px-2 py-2 w-[80px] rounded text-lime-500 font-bold"}
                 onClick={()=>setMulaiClick(true)}
+                text={"Mulai!"}
                 >
-                  Mulai!
-                </button>
+                </Button>
               </div>
             </div>
           </div>
