@@ -2,10 +2,13 @@ import React, { useState, useEffect } from "react";
 import "../css/InputCustomerData.css";
 import '../css/loading.css'
 import Button from "../component/Button";
+import { Link, useNavigate } from "react-router-dom";
 
 function InputCustomerData() {
   const [loading, setLoading] = useState(false);
   const [mulaiClick, setMulaiClick] = useState(false)
+
+  const navigate = useNavigate()
 
 
   useEffect(() => {
@@ -70,12 +73,12 @@ function InputCustomerData() {
                 </div>
               </div>
               <div className="w-full flex justify-center items-center py-2">
-                <Button 
-                className={"bg-white px-2 py-2 w-[80px] rounded text-lime-500 font-bold"}
-                onClick={()=>setMulaiClick(true)}
-                text={"Mulai!"}
-                >
-                </Button>
+                  <Button 
+                  className={"bg-white px-2 py-2 w-[80px] rounded text-lime-500 font-bold"}
+                  onClick={()=>setMulaiClick(true)}
+                  text={"Mulai!"}
+                  >
+                  </Button>
               </div>
             </div>
           </div>
@@ -90,7 +93,9 @@ function InputCustomerData() {
             {
                 setTimeout(()=>{
                     setMulaiClick(false)
+                    navigate('/login')
                 }, 2000)
+                
             }
         </div>
       ) }

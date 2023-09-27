@@ -11,6 +11,7 @@ import LandingPage from "./LandingPage";
 import Login from "./Login";
 import InputCustomerData from "./InputCustomerData";
 import IntroductionPage from "./introduction";
+import HomeDashboard from "./HomeDashboard";
 
 function Home() {
   return (
@@ -21,7 +22,7 @@ function Home() {
           <Route path="/login" element={<Login />} />
           <Route path="/input-customer-data" element={<InputCustomerData />} />
           <Route path="/introduction" element={<IntroductionPage/>}/>
-          
+          <Route path="/home-dashboard" element={<HomeDashboard />} />
         </Routes>
       </Router>
   );

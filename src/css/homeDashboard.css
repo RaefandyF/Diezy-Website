@@ -1,0 +1,6 @@
+.homeDashboard{
+    background-image: url('../Assets/background-home.png');
+    background-position: 80% 40%;
+    width: 100%;
+    height: 100vh;
+}
