@@ -3,6 +3,7 @@ import HeaderDashboard from "../component/HeaderDashboard";
 import "../css/homeDashboard.css";
 import SemiCircleProgressBar from "react-progressbar-semicircle";
 import PageTwoDashboard from "../component/PageTwoDashboard";
+import PageThreeDashboard from "../component/PageThreeDashboard";
 
 function HomeDashboard() {
   return (
@@ -24,6 +25,7 @@ function HomeDashboard() {
         </div>
       </div>
       <PageTwoDashboard />
+      <PageThreeDashboard />
     </div>
   );
 }
