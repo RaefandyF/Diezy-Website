@@ -1,0 +1,7 @@
+.footerPage{
+    /* background-image: url('../Assets/page-3-dashboard.png'); */
+    background-color: black;
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+}

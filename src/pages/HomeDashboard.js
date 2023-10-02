@@ -4,6 +4,8 @@ import "../css/homeDashboard.css";
 import SemiCircleProgressBar from "react-progressbar-semicircle";
 import PageTwoDashboard from "../component/PageTwoDashboard";
 import PageThreeDashboard from "../component/PageThreeDashboard";
+import PageFourDashboard from "../component/PageFourDashboard";
+import Footer from "../component/Footer";
 
 function HomeDashboard() {
   return (
@@ -26,6 +28,8 @@ function HomeDashboard() {
       </div>
       <PageTwoDashboard />
       <PageThreeDashboard />
+      <PageFourDashboard />
+      <Footer />
     </div>
   );
 }
