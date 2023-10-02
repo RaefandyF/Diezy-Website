@@ -12,6 +12,7 @@ import Login from "./Login";
 import InputCustomerData from "./InputCustomerData";
 import IntroductionPage from "./introduction";
 import HomeDashboard from "./HomeDashboard";
+import FoodDashboard from "./FoodDashboard";
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
           <Route path="/input-customer-data" element={<InputCustomerData />} />
           <Route path="/introduction" element={<IntroductionPage/>}/>
           <Route path="/home-dashboard" element={<HomeDashboard />} />
+          <Route path="/food-dashboard" element={<FoodDashboard />} />
         </Routes>
       </Router>
   );

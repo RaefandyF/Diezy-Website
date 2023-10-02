@@ -21,7 +21,7 @@ function HomeDashboard() {
               <h5>{"10 Hari (tersisa 20 Hari)"}</h5>
             </div>
             <div className="flex items-center justify-center mt-5">
-              <SemiCircleProgressBar percentage={65} showPercentValue />
+              <SemiCircleProgressBar diameter={500} strokeWidth={30} percentage={65} showPercentValue />
             </div>
           </div>
         </div>

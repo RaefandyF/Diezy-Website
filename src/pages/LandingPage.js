@@ -8,7 +8,7 @@ function LandingPage() {
     <div>
       <div className="home-page1 py-5">
         <div className="h-3/4 flex justify-center items-center">
-          <div className="text-light wrap1">
+          <div className="text-white text-light wrap1">
             <div>
               <h1 className="text-[50px]">Selamat Datang di Diezy</h1>
             </div>
