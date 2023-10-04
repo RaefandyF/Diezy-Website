@@ -1,0 +1,15 @@
+.page2Food{
+    background-image: url('../Assets/page-2-food.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+
+
+
+.lihat-resep{
+    text-align: right;
+    color: #1aeb3d;
+}
+

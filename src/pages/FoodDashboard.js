@@ -5,6 +5,10 @@ import imageCar1 from "../Assets/imageCar1.png";
 import imageCar2 from "../Assets/imageCar2.png";
 import imageCar3 from "../Assets/imageCar3.png";
 import Carousel from "react-bootstrap/Carousel";
+import oatmeal from "../Assets/oatmeal-img.png";
+import DiezyPlusBanner from "../component/PageFourDashboard";
+import Footer from "../component/Footer";
+import "../css/pageTwoFood.css";
 
 function FoodDashboard() {
   return (
@@ -45,7 +49,101 @@ function FoodDashboard() {
           </Carousel.Item>
         </Carousel>
       </div>
+
+      <div className="page2Food">
+        <div className="d-flex justify-content-center px-5 pt-10 w-full h-[50px] text-white text-[40px] font-bold">
+          <h3>Kejar Target Dietmu dengan Menu-menu Berikut</h3>
+        </div>
+        <div>
+          <div className="pt-20 flex d-flex justify-content-center">
+            {/* box redeclare */}
+            <div className="box rounded mx-3">
+              <div>
+                <img src={oatmeal} className="px-2 py-1" alt="" />
+              </div>
+              <div className="px-2 py-1 text-2xl">
+                <p>Oatmeal</p>
+              </div>
+              <div className="px-2 py-1 text-sm">
+                <p>200 cal</p>
+              </div>
+              <div className="lihat-resep px-2 py-1 text-sm">
+                <p className="text-right text-green-500">Lihat Resep</p>
+              </div>
+            </div>
+            <div className="box rounded mx-3">
+              <div>
+                <img src={oatmeal} className="px-2 py-1" alt="" />
+              </div>
+              <div className="px-2 py-1 text-2xl">
+                <p>Oatmeal</p>
+              </div>
+              <div className="px-2 py-1 text-sm">
+                <p>200 cal</p>
+              </div>
+              <div className="lihat-resep px-2 py-1 text-sm">
+                <p className="text-right text-green-500">Lihat Resep</p>
+              </div>
+            </div>
+            <div className="box rounded mx-3">
+              <div>
+                <img src={oatmeal} className="px-2 py-1" alt="" />
+              </div>
+              <div className="px-2 py-1 text-2xl">
+                <p>Oatmeal</p>
+              </div>
+              <div className="px-2 py-1 text-sm">
+                <p>200 cal</p>
+              </div>
+              <div className="lihat-resep px-2 py-1 text-sm">
+                <p className="text-right text-green-500">Lihat Resep</p>
+              </div>
+            </div>
+
+            <br></br>
+          </div>
+          <div className="wrap-all pt-4 flex d-flex justify-content-center">
+
+            <div className="box rounded mx-3">
+              <div>
+                <img src={oatmeal} className="px-2 py-1" alt="" />
+              </div>
+              <div className="px-2 py-1 text-2xl">
+                <p>Oatmeal</p>
+              </div>
+              <div className="px-2 py-1 text-sm">
+                <p>200 cal</p>
+              </div>
+              <div className="lihat-resep px-2 py-1 text-sm">
+                <p className="text-right text-green-500">Lihat Resep</p>
+              </div>
+            </div>
+            <div className="box rounded mx-3">
+              <div>
+                <img src={oatmeal} className="px-2 py-1" alt="" />
+              </div>
+              <div className="px-2 py-1 text-2xl">
+                <p>Oatmeal</p>
+              </div>
+              <div className="px-2 py-1 text-sm">
+                <p>200 cal</p>
+              </div>
+              <div className="lihat-resep px-2 py-1 text-sm">
+                <p className="text-right text-green-500">Lihat Resep</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <DiezyPlusBanner />
+      <Footer />
+
     </div>
+
+
+
   );
 }
 
