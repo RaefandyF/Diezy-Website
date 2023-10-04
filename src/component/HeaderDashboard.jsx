@@ -14,7 +14,7 @@ function HeaderDashboard() {
             <div className=''>
                 <div className='mx-3 flex mt-3 mb-3'>
                     <Link to={'/home-dashboard'}><p className='mx-1 text-[20px] text-white'>Home</p></Link>
-                    <Link to={''}><p className='mx-1 text-[20px] text-white'>Progress</p></Link>
+                    <Link to={'/progress-dashboard'}><p className='mx-1 text-[20px] text-white'>Progress</p></Link>
                     <Link to={'/food-dashboard'}><p className='mx-1 text-[20px] text-white'>Food</p></Link>
                     <p className='mx-1 text-[20px] text-white'>Exercise</p>
                     <p className='mx-1 text-[20px] text-white'>History</p>

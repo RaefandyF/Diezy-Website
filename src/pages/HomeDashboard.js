@@ -1,11 +1,12 @@
 import React from "react";
 import HeaderDashboard from "../component/HeaderDashboard";
 import "../css/homeDashboard.css";
-import SemiCircleProgressBar from "react-progressbar-semicircle";
+
 import PageTwoDashboard from "../component/PageTwoDashboard";
 import PageThreeDashboard from "../component/PageThreeDashboard";
 import PageFourDashboard from "../component/PageFourDashboard";
 import Footer from "../component/Footer";
+import ProgressSemiCircularBar from "../component/ProgressSemiCircularBar";
 
 function HomeDashboard() {
   return (
@@ -20,9 +21,7 @@ function HomeDashboard() {
             <div>
               <h5>{"10 Hari (tersisa 20 Hari)"}</h5>
             </div>
-            <div className="flex items-center justify-center mt-5">
-              <SemiCircleProgressBar diameter={500} strokeWidth={30} percentage={65} showPercentValue />
-            </div>
+            <ProgressSemiCircularBar />
           </div>
         </div>
       </div>

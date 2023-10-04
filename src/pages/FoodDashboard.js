@@ -14,8 +14,8 @@ function FoodDashboard() {
   return (
     <div className="w-full bg-[#7ed957]">
       <HeaderDashboard />
-      <div className="px-[50px] py-[50px]">
-        <Carousel>
+      <div className="px-[50px] py-[50px] rounded">
+        <Carousel style={{borderRadius: `10px`}}>
           <Carousel.Item>
             <div className="w-full h-full">
               <img src={imageCar1} />

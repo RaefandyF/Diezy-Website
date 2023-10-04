@@ -13,6 +13,7 @@ import InputCustomerData from "./InputCustomerData";
 import IntroductionPage from "./introduction";
 import HomeDashboard from "./HomeDashboard";
 import FoodDashboard from "./FoodDashboard";
+import ProgressDashboard from "./ProgressDashboard";
 
 function Home() {
   return (
@@ -25,6 +26,7 @@ function Home() {
           <Route path="/introduction" element={<IntroductionPage/>}/>
           <Route path="/home-dashboard" element={<HomeDashboard />} />
           <Route path="/food-dashboard" element={<FoodDashboard />} />
+          <Route path={'/progress-dashboard'} element={<ProgressDashboard />}/>
         </Routes>
       </Router>
   );
