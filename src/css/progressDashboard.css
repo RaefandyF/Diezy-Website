@@ -1,0 +1,15 @@
+.progressDashboard{
+    background-image: url('../Assets/background-home.png');
+    background-position: 80% 40%;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.progressDash2{
+    background-image: url('../Assets/progressDashbord2.png');
+    background-position: 80% 40%;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
