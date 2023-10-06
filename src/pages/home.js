@@ -14,7 +14,7 @@ import IntroductionPage from "./introduction";
 import HomeDashboard from "./HomeDashboard";
 import FoodDashboard from "./FoodDashboard";
 import ProgressDashboard from "./ProgressDashboard";
-
+import ExerciseDashboard from "./ExerciseDashboard";
 function Home() {
   return (
     // Halaman 1    
@@ -27,6 +27,7 @@ function Home() {
           <Route path="/home-dashboard" element={<HomeDashboard />} />
           <Route path="/food-dashboard" element={<FoodDashboard />} />
           <Route path={'/progress-dashboard'} element={<ProgressDashboard />}/>
+          <Route path={'/exercise-dashboard'} element={<ExerciseDashboard />}/>
         </Routes>
       </Router>
   );

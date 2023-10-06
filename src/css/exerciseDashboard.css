@@ -1,0 +1,45 @@
+.page1{
+    background-image: url('../Assets/page-1-exercise.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.text1{
+    color: #FFF;
+    font-family: Impact;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10rem 0 0 3rem;
+}
+
+.text2{
+    color: #F00;
+    font-family: Impact;
+    font-size: 144px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 0 1rem 3rem;
+}
+
+.page1 p {
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 58%;
+    padding: 0 0 1rem 3rem;
+}
+
+.page2{
+    background-image: url('../Assets/page-2-exercise.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
