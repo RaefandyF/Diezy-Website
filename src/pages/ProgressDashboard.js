@@ -19,6 +19,8 @@ import {
   //bar component chart js
   BarElement
 } from 'chart.js';
+import TableCalculateCalory from "../component/TableCalculateCalory";
+import Footer from "../component/Footer";
 
 ChartJS.register(
   CategoryScale,
@@ -161,20 +163,24 @@ function ProgressDashboard() {
             </div>
             <div className="flex">
               <div>
-                <button className="flex mx-2">
-                  <img src={svgTambah} className="w-[20px] h-[20px] mx-2" />
-                  Tambah
+                <button className="flex items-center justify-center px-2 py-2 mx-2 bg-[#2C832A] h-full rounded">
+                  <img src={svgTambah} className="w-[20px] h-[20px] mx-1" />
+                  <p className="font-bold text-white">Tambah</p>
                 </button>
               </div>
               <div className="flex mx-2">
-                <button className="flex mx-2">
+                <button className="flex items-center justify-center px-2 py-2 mx-2 bg-[#2C832A] rounded">
                   <img src={svgEdit} className="w-[20px] h-[20px] mx-2" />
-                  Edit
+                  <p className="font-bold text-white">Edit</p>
                 </button>
               </div>
             </div>
           </div>
+          <div className="flex items-center justify-center px-[30px] mt-[30px]">
+            <TableCalculateCalory />
+          </div>
         </div>
+        <Footer />
     </div>
   );
 }
