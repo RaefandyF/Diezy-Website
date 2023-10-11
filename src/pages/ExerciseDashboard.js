@@ -2,12 +2,14 @@ import React from "react";
 import "../css/exerciseDashboard.css";
 import HeaderDashboard from "../component/HeaderDashboard";
 import squat from "../Assets/squat.png";
+import Button from "../component/Button";
+import Footer from "../component/Footer";
 
 function ExerciseDashboard() {
     return (
         <div className="w-full bg-[#7ed957]">
             <HeaderDashboard />
-            <div className="page1">
+            <div className="page1-exercise">
                 <h1 className="text1">DIET TANPA OLAHRAGA</h1>
                 <h1 className="text2">MANA CUKUP!</h1>
                 <p>Lengkapi Dietmu dengan berolahraga.
@@ -16,7 +18,7 @@ function ExerciseDashboard() {
                 <p>Scroll ke bawah untuk melanjutkan</p>
             </div>
 
-            <div className="page2">
+            <div className="page2-exercise">
                 <div className=" flex pt-5 justify-content-center">
                     <div className="cursor-pointer rounded-[20px] w-[45%] bg-white mr-3 h-[3.5rem]">
                         <p className="text-[#2C832A] ml-[40%] mt-3 text-[1.1rem] font-bold">Olahraga Rekomendasi</p>
@@ -100,6 +102,16 @@ function ExerciseDashboard() {
                 </div>
 
             </div>
+                
+            <div className="page3-exercise">
+                <div className="diezyPlusBanner2">
+                    <Button
+                        className={"bg-white px-2 py-2 w-[80px] rounded text-[#2c832a] font-bold  buttonDaftar"}
+                        text={"Daftar"}
+                    />
+                </div>
+            </div>
+            <Footer />
 
         </div>
     )

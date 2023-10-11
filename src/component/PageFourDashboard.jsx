@@ -5,7 +5,7 @@ import Button from "../component/Button";
 
 function PageFourDashboard() {
   return (
-    <div className="page4">
+    <div className="page4-dashboard">
       <div className="flex">
         <div className="diezyPlusBanner">
           <Button

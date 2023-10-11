@@ -1,4 +1,4 @@
-.page1{
+.page1-exercise{
     background-image: url('../Assets/page-1-exercise.png');
     width: 100%;
     height: 100vh;
@@ -25,7 +25,7 @@
     padding: 0 0 1rem 3rem;
 }
 
-.page1 p {
+.page1-exercise p {
     color: #000;
     font-family: Nunito Sans;
     font-size: 30px;
@@ -36,10 +36,29 @@
     padding: 0 0 1rem 3rem;
 }
 
-.page2{
+.page2-exercise{
+    padding-top: 10rem;
     background-image: url('../Assets/page-2-exercise.png');
     width: 100%;
     height: 100vh;
     background-size: cover;
+}
+
+.page3-exercise {
+    background-color: #7ed957;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    padding-top: 8rem;
+}
+
+.diezyPlusBanner2 {
+    background-image: url('../Assets/diezyPlus2.png');
+    background-size: 1300px 600px;
+    width: 90%;
+    height: 35rem;
+    margin-left: 5rem;
+    padding-top: 3rem;
+    border-radius: 5rem;
 }
 

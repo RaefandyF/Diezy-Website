@@ -1,4 +1,4 @@
-.page4{
+.page4-dashboard{
     /* background-image: url('../Assets/page-3-dashboard.png'); */
     background-color: #7ed957;
     width: 100%;
@@ -7,7 +7,7 @@
 }
 
 .diezyPlusBanner {
-    background-image: url('../Assets/Diezyplus.png');
+    background-image: url('../Assets/diezyPlus.png');
     background-size: 1400px 600px;
     width: 90%;
     height: 35rem;
